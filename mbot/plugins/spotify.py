@@ -185,7 +185,7 @@ async def spotify_dl(_,message):
     except Exception as e:
         LOGGER.error(e)
         K = await m.edit_text(e)
-        H = await message.reply_text(f"Download Failed ⚠️,   
+        H = await message.reply_text(f"Download Failed ⚠️",   
              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Error Detected", callback_data="bug")]]))
         await message.reply_text(f"you can also get it from Saavn type /saavn music_name")
         await forward(K,H)
