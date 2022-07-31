@@ -22,7 +22,7 @@ async def jssong(_, message):
         )
     is_downloading = True
     text = message.text.split(None, 1)[1]
-    m = await message.reply_text("⏳")
+    m = await message.reply_text("Please Wait Or Die!")
     try:
         songs = await arq.saavn(text)
         if not songs.ok:
