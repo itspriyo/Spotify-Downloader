@@ -185,7 +185,7 @@ async def spotify_dl(_,message):
     except Exception as e:
         LOGGER.error(e)
         K = await m.edit_text(e)
-        H = await message.reply_text(f"Download Done, Enjoy✅",   
+        H = await message.reply_text(f"Download Failed ⚠️,   
              reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Error Detected", callback_data="bug")]]))
         await message.reply_text(f"you can also get it from Saavn type /saavn music_name")
         await forward(K,H)
@@ -193,7 +193,7 @@ async def spotify_dl(_,message):
 @Mbot.on_callback_query(filters.regex(r"feed"))
 async def feedback(_,query):
       await query.message.edit(f"Feedback Report ⚠️",
-                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Press here", url="https://t.me/bdbots")]]))
+                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Press here", url="https://t.me/P_R_I_Y_O_O")]]))
 
 @Mbot.on_callback_query(filters.regex(r"bug"))                                                                                                          
 async def bug(_,query):                                                                                                                                  
