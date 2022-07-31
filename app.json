@@ -12,23 +12,19 @@
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
-      "value": ""
-      "Required": false
+      "value": "17973576"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-      "Required": false
+      "value": "b855f5472ba477b26e54e60990a948fd"
     },
     "BOT_TOKEN": {
       "description": "Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": ""
-      "Required": false
+      "value": "5583755333:AAEaxJmdUPjaui02e9382gzz-3eNvRKSZ2M"
     },
     "OWNER_ID": {
       "description": "The ID of the owner of the bot",
-      "value": ""
-      "Required": false
+      "value": "2007865157"
     },
     "SUDO_USERS": {
       "description": "The ID of the sudo users of the bot",
@@ -37,23 +33,19 @@
     },
     "AUTH_CHATS": {
       "description": "The ID of the authorized chats of the bot",
-      "value": "",
-      "required": false
+      "value": "-1001620988242"
     },
     "LOG_GROUP": {
       "description": "The ID of the group to log to",
-      "value": "",
-      "required": false
+      "value": "-1001535666345"
     },
     "SPOTIPY_CLIENT_SECRET": {
       "description": "The client secret of the Spotify API",
-      "value": ""
-      "Required": false
+      "value": "b311323926b14429b29d433795a2ccf7"
     },
     "SPOTIPY_CLIENT_ID": {
       "description": "The client ID of the Spotify API",
-      "value": ""
-      "Required": false
+      "value": "44af6b76abbe4873b40c9fd3bd2df5f5"
     }
   },
 "buildpacks": [
